@@ -1,22 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Edit from "./Edit";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Edit number="1" />
+        <Edit number="2" />
+        <Edit number="3" />
+        <Edit number="4" />
       </header>
     </div>
   );
