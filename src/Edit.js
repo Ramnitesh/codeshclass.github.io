@@ -1,7 +1,22 @@
 export default function Edit(props) {
-  return (
-    <p>
-      Edit <code>src/App.js</code> and save to reload {props.number}.
-    </p>
-  );
+  if (!isNaN(props.number)) {
+    // if else
+    return (
+      <p>
+        {
+          // logical operator
+          props.number > 0 && (
+            <>
+              Edit <code>src/App.js</code> and save to reload {props.number}.
+            </>
+          )
+        }
+      </p>
+    );
+  } else {
+    return (
+      // ternary operator
+      <>{props.number === 0 ? <p>hello 0</p> : <></>}</>
+    );
+  }
 }
