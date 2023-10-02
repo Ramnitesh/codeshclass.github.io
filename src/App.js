@@ -1,32 +1,25 @@
-import { useState } from "react";
-import "./App.css";
-import Edit from "./Edit";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
+import Contact from "./pages/Contact";
+import NoPage from "./pages/NoPage";
 
-function App() {
-  // eslint-disable-next-line no-undef
-  const [soniyaAccount, setAccountBalance] = useState(1000);
-  let nums = [1, 2, 3, 4];
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <label>
-          Available Balance : {soniyaAccount}
-          <input
-            type="text"
-            value={soniyaAccount}
-            onChange={(e) => setAccountBalance(e.target.value)}
-          />
-        </label>
-        {nums.map((num) => (
-          <Edit number={num} />
-        ))}
-        {/* <Edit number="1" />
-        <Edit number="2" />
-        <Edit number="3" />
-        <Edit number="4" /> */}
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);

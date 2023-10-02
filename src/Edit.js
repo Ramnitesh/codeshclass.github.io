@@ -1,4 +1,5 @@
-export default function Edit(props) {
+import { memo } from "react";
+function Edit(props) {
   if (!isNaN(props.number)) {
     // if else
     return (
@@ -20,3 +21,4 @@ export default function Edit(props) {
     );
   }
 }
+export default memo(Edit);
