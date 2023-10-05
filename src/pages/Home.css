@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: -1%;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    
+  }
+  h2,h3{
+    color: black;
+    text-align: center; 
+  }
+  .one{
+ height: 15vh;
+width: 6vh;
+border: 1px solid black;
+padding-left: 15px;
+
+  }

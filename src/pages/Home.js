@@ -1,38 +1,27 @@
-import { useEffect, useState } from "react";
-import "../App.css";
-import Edit from "../Edit";
-
+import "./Home.css";
+import video from "../assets/images/video.gif";
+import Button from '@mui/material/Button';  
 function Home() {
-  // eslint-disable-next-line no-undef
-  const [soniyaAccount, setAccountBalance] = useState(1000);
-  const [count, setCount] = useState(60);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setCount((count) => count - 1);
-    }, 1000);
-  });
-
-  let nums = [1, 2, 3, 4];
   return (
-    <header className="App-header">
-        <label>Your balance will be close in {count} seconds</label>
-        <label>
-          Available Balance : {soniyaAccount}
-          <input
-            type="text"
-            value={soniyaAccount}
-            onChange={(e) => setAccountBalance(e.target.value)}
-          />
-        </label>
-        {nums.map((num) => (
-          <Edit number={num} />
-        ))}
-        {/* <Edit number="1" />
-        <Edit number="2" />
-        <Edit number="3" />
-        <Edit number="4" /> */}
-      </header>
+    <>
+      <div class="container">
+        <img src={video} width="100%" height="600px"></img>
+        <div class="centered"><h1>High Quality Coding Videos</h1>
+        <h5>Code Foundations | Data Science | Computer Science</h5>
+        <label style={{fontSize:"20px"}}>Get your Codesh Class All-Access Pass today</label> <br/>
+        <Button variant="contained">Buy Now</Button>
+        </div>
+       </div>
+      <div>
+        <h2>Courses Available</h2>
+        <h3>Click on the course to learn more</h3>
+      </div>
+      <div style={{display:"flex"}}>
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+      </div>
+    </>
   );
 }
 
