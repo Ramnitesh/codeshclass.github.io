@@ -15,8 +15,7 @@ function Home() {
 
   let nums = [1, 2, 3, 4];
   return (
-    <div className="App">
-      <header className="App-header">
+    <header className="App-header">
         <label>Your balance will be close in {count} seconds</label>
         <label>
           Available Balance : {soniyaAccount}
@@ -34,7 +33,6 @@ function Home() {
         <Edit number="3" />
         <Edit number="4" /> */}
       </header>
-    </div>
   );
 }
 
