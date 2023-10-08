@@ -1,32 +1,29 @@
 .container {
-    position: relative;
-    text-align: center;
-    color: white;
-    margin-top: -1%;
-  }
-  
-  /* Centered text */
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    
-  }
- .section{
+  position: relative;
+  text-align: center;
+  margin-top: -1%;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+.section {
   background-color: #191c21;
   text-align: center;
   color: white;
- }
- #carddiv{
+}
+#carddiv {
   display: flex;
   justify-content: center;
-  
- }
-  /* Float four columns side by side */
+}
+/* Float four columns side by side */
 .column {
   float: left;
   width: 25%;
@@ -54,10 +51,10 @@
     display: block;
     margin-bottom: 20px;
   }
-  #header{
-    font-size: .8em;
+  #header {
+    font-size: 0.8em;
   }
-  .row{
+  .row {
     display: block;
   }
 }
@@ -71,6 +68,6 @@
   color: black;
   border-radius: 5px;
 }
-.card:hover{
+.card:hover {
   cursor: pointer;
 }

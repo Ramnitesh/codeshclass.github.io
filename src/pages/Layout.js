@@ -1,10 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
 import "./Layout.css";
-import logo_img from "../assets/images/code_logo_circle.png";
-import MenuIcon from '@mui/icons-material/Menu';
+import logo_img from "../assets/images/codesh_logo.png";
+import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import { Button } from "@mui/material";
-import CloseIcon from '@mui/icons-material/Close';
+import CloseIcon from "@mui/icons-material/Close";
 const Layout = () => {
   const [isVisibileMenuIcon, setVisibileMenuIcon] = useState(true);
 
@@ -13,7 +13,9 @@ const Layout = () => {
       <nav>
         <ul>
           <li id="logo_li">
-            <Link to="/"><img src={logo_img} height="70px" /></Link>
+            <Link to="/">
+              <img alt="codesh logo" src={logo_img} height="70px" />
+            </Link>
           </li>
           <li id="menu_li">
             <div class="menu">
@@ -29,8 +31,7 @@ const Layout = () => {
               <Button onClick={() => setVisibileMenuIcon(!isVisibileMenuIcon)}>
                 {isVisibileMenuIcon ? <MenuIcon /> : <CloseIcon />}
               </Button>
-              {
-                !isVisibileMenuIcon &&
+              {!isVisibileMenuIcon && (
                 <div>
                   <div class="menu_mobile">
                     <Link to="/">Courses</Link>
@@ -42,7 +43,7 @@ const Layout = () => {
                     <Link to="/contact">Contact us</Link>
                   </div>
                 </div>
-              }
+              )}
             </div>
           </li>
         </ul>
