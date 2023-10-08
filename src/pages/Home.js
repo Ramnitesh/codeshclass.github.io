@@ -1,7 +1,8 @@
 import "./Home.css";
-import intro_video from "../assets/videos/intro.mp4";
+import left_intro from "../assets/videos/left_intro.gif";
+import right_intro from "../assets/videos/right_intro.gif";
 import Button from "@mui/material/Button";
-import dsa_image from "../assets/images/dsa.webp";
+import dsa_image from "../assets/images/dsa.jpeg";
 import leetcode_image from "../assets/images/leetcode_image.jpg";
 import grpc_image from "../assets/images/grpc.png";
 function Home() {
@@ -20,13 +21,24 @@ function Home() {
   return (
     <>
       <div class="container">
-        <img
-          alt="intro video"
-          src={intro_video}
-          width="100%"
-          height="600px"
-          style={{ opacity: "50%" }}
-        ></img>
+        <div>
+          <img
+            class="intro_img"
+            alt="intro video"
+            src={left_intro}
+            width="50%"
+            height="600px"
+            style={{ opacity: "50%" }}
+          />
+          <img
+            class="intro_img"
+            alt="intro video"
+            src={right_intro}
+            width="50%"
+            height="600px"
+            style={{ opacity: "50%" }}
+          />
+        </div>
         <div class="centered">
           <h2 id="header" style={{ fontWeight: 600 }}>
             High Quality Coding Videos
@@ -39,7 +51,14 @@ function Home() {
             Get your Codesh Class All-Access Pass today
           </label>{" "}
           <br />
-          <Button style={{ fontWeight: 800 }} variant="contained">
+          <Button
+            style={{ fontWeight: 800 }}
+            variant="contained"
+            onClick={() => {
+              window.location.href =
+                "https://docs.google.com/forms/d/e/1FAIpQLSfv66tYquRGdbwwcM7mygBQvvrHiAvDUrPITQvNy98wgo2zJg/viewform?usp=sf_link";
+            }}
+          >
             Access Now
           </Button>
         </div>
@@ -63,8 +82,9 @@ function Home() {
                 />
                 <h3>Data Structures and Algorithms</h3>
                 <p>
-                  We are creating the most comprehensive Data Structures and
-                  Algorithms course with high-quality animation videos.{" "}
+                  We are creating the most beautifull comprehensive Data
+                  Structures and Algorithms course with high-quality animation
+                  videos.{" "}
                 </p>
               </div>
             </div>

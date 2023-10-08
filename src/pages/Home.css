@@ -57,6 +57,10 @@
   .row {
     display: block;
   }
+  .intro_img {
+    width: 100%;
+    height: 300px;
+  }
 }
 
 /* Style the counter cards */
