@@ -18,13 +18,13 @@ const Layout = () => {
             </Link>
           </li>
           <li id="menu_li">
-            <div class="menu">
+            <div className="menu">
               <Link to="/">Courses</Link>
             </div>
-            <div class="menu">
+            <div className="menu">
               <Link to="/allvideo">All videos</Link>
             </div>
-            <div class="menu">
+            <div className="menu">
               <Link to="/contact">Contact us</Link>
             </div>
             <div id="menu_icon_li">
@@ -33,13 +33,13 @@ const Layout = () => {
               </Button>
               {!isVisibileMenuIcon && (
                 <div>
-                  <div class="menu_mobile">
+                  <div className="menu_mobile">
                     <Link to="/">Courses</Link>
                   </div>
-                  <div class="menu_mobile">
+                  <div className="menu_mobile">
                     <Link to="/allvideo">All videos</Link>
                   </div>
-                  <div class="menu_mobile">
+                  <div className="menu_mobile">
                     <Link to="/contact">Contact us</Link>
                   </div>
                 </div>

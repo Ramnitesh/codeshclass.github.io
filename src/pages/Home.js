@@ -20,10 +20,10 @@ function Home() {
   }
   return (
     <>
-      <div class="container">
+      <div className="container">
         <div>
           <img
-            class="intro_img"
+            className="intro_img"
             alt="intro video"
             src={left_intro}
             width="50%"
@@ -31,7 +31,7 @@ function Home() {
             style={{ opacity: "50%" }}
           />
           <img
-            class="intro_img"
+            className="intro_img"
             alt="intro video"
             src={right_intro}
             width="50%"
@@ -39,7 +39,7 @@ function Home() {
             style={{ opacity: "50%" }}
           />
         </div>
-        <div class="centered">
+        <div className="centered">
           <h2 id="header" style={{ fontWeight: 600 }}>
             High Quality Coding Videos
           </h2>
@@ -63,7 +63,7 @@ function Home() {
           </Button>
         </div>
       </div>
-      <div class="section">
+      <div className="section">
         <div>
           <br />
           <h1>Courses Available</h1>
@@ -71,9 +71,9 @@ function Home() {
           <br />
         </div>
         <div id="carddiv">
-          <div class="row">
-            <div class="column" onClick={() => onClickHandler("dsa")}>
-              <div class="card">
+          <div className="row">
+            <div className="column" onClick={() => onClickHandler("dsa")}>
+              <div className="card">
                 <img
                   alt="Data Structures and Algorithms"
                   src={dsa_image}
@@ -82,14 +82,14 @@ function Home() {
                 />
                 <h3>Data Structures and Algorithms</h3>
                 <p>
-                  We are creating the most beautifull comprehensive Data
+                  We are creating the most beautiful comprehensive Data
                   Structures and Algorithms course with high-quality animation
                   videos.{" "}
                 </p>
               </div>
             </div>
-            <div class="column" onClick={() => onClickHandler("leetcode")}>
-              <div class="card">
+            <div className="column" onClick={() => onClickHandler("leetcode")}>
+              <div className="card">
                 <img
                   alt="Leet Code Interview Preparation"
                   src={leetcode_image}
@@ -104,8 +104,8 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div class="column" onClick={() => onClickHandler("grpc")}>
-              <div class="card">
+            <div className="column" onClick={() => onClickHandler("grpc")}>
+              <div className="card">
                 <img
                   alt="Google Remote Processor Call"
                   src={grpc_image}
