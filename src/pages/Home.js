@@ -136,6 +136,12 @@ function Home() {
       <div className="section section-team">
         <div>
           <h1>Our Team</h1>
+          <p>
+            Our team is a group of individuals working together to achieve our
+            goal of providing
+            <br /> high-quality coding videos and mentoring to student <br />{" "}
+            without any social distraction.
+          </p>
         </div>
         <div className="card-container">
           <div className="row">
