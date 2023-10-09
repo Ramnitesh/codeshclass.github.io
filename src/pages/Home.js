@@ -5,6 +5,9 @@ import Button from "@mui/material/Button";
 import dsa_image from "../assets/images/dsa.jpeg";
 import leetcode_image from "../assets/images/leetcode_image.jpg";
 import grpc_image from "../assets/images/grpc.png";
+import soniya_image from "../assets/images/team-soniya.jpeg";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 function Home() {
   function onClickHandler(link) {
     if (link === "dsa")
@@ -63,14 +66,13 @@ function Home() {
           </Button>
         </div>
       </div>
-      <div className="section">
+      <div className="section section-course">
         <div>
-          <br />
           <h1>Courses Available</h1>
-          <h3>Click on the course to learn more</h3>
-          <br />
+          <a>Click on the course to learn more</a>
+          <br /><br />
         </div>
-        <div id="carddiv">
+        <div className="card-container">
           <div className="row">
             <div className="column" onClick={() => onClickHandler("dsa")}>
               <div className="card">
@@ -118,6 +120,31 @@ function Home() {
                   use another tech service no matter what job title you have.
                   Get started with gRPC.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="section section-team">
+        <div>
+          <h1>Teams</h1>
+        </div>
+        <div className="card-container">
+          <div className="row">
+            <div className="column">
+              <div className="card">
+                <img
+                  alt="Google Remote Processor Call"
+                  src={soniya_image}
+                  height={"50%"}
+                  width={"50%"}
+                  style={{borderRadius:"50%"}}
+                />
+                <h3>Soniya Faroda</h3>
+                <p>Fresher - MERN Stack</p>
+                <div>
+                  <LinkedInIcon style={{fontSize:25,paddingInline:10}} /> <GitHubIcon/>
+                </div>
               </div>
             </div>
           </div>

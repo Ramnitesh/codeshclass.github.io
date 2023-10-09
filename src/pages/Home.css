@@ -7,6 +7,7 @@
 /* Centered text */
 .centered {
   position: absolute;
+  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -15,11 +16,18 @@
   color: white;
 }
 .section {
-  background-color: #191c21;
   text-align: center;
+  padding: 2%;
+}
+.section-course {
+  background-color: #191c21;
   color: white;
 }
-#carddiv {
+.section-team {
+  background-color: white;
+  color: #191c21;
+}
+.card-container {
   display: flex;
   justify-content: center;
 }
