@@ -35,7 +35,7 @@
 .column {
   float: left;
   width: 25%;
-  padding: 0 10px;
+  margin: 1%;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -80,6 +80,11 @@
   color: black;
   border-radius: 5px;
 }
-.card:hover {
+.course-img:hover {
   cursor: pointer;
+}
+.card-team {
+  background-color: black;
+  color: white;
+  padding: 10%;
 }

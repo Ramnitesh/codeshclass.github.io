@@ -6,8 +6,9 @@ import dsa_image from "../assets/images/dsa.jpeg";
 import leetcode_image from "../assets/images/leetcode_image.jpg";
 import grpc_image from "../assets/images/grpc.png";
 import soniya_image from "../assets/images/team-soniya.jpeg";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import nitesh_image from "../assets/images/team-nitesh.png";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 function Home() {
   function onClickHandler(link) {
     if (link === "dsa")
@@ -69,18 +70,21 @@ function Home() {
       <div className="section section-course">
         <div>
           <h1>Courses Available</h1>
-          <a>Click on the course to learn more</a>
-          <br /><br />
+          <p>Click on the course to learn more</p>
+          <br />
+          <br />
         </div>
         <div className="card-container">
           <div className="row">
-            <div className="column" onClick={() => onClickHandler("dsa")}>
+            <div className="column">
               <div className="card">
                 <img
+                  className="course-img"
                   alt="Data Structures and Algorithms"
                   src={dsa_image}
                   height={"100%"}
                   width={"100%"}
+                  onClick={() => onClickHandler("dsa")}
                 />
                 <h3>Data Structures and Algorithms</h3>
                 <p>
@@ -90,13 +94,15 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="column" onClick={() => onClickHandler("leetcode")}>
+            <div className="column">
               <div className="card">
                 <img
+                  className="course-img"
                   alt="Leet Code Interview Preparation"
                   src={leetcode_image}
                   height={"100%"}
                   width={"100%"}
+                  onClick={() => onClickHandler("leetcode")}
                 />
                 <h3>Leet Code Interview Preparation</h3>
                 <p>
@@ -106,13 +112,15 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="column" onClick={() => onClickHandler("grpc")}>
+            <div className="column">
               <div className="card">
                 <img
+                  className="course-img"
                   alt="Google Remote Processor Call"
                   src={grpc_image}
                   height={"100%"}
                   width={"100%"}
+                  onClick={() => onClickHandler("grpc")}
                 />
                 <h3>Google Remote Processor Call</h3>
                 <p>
@@ -127,24 +135,62 @@ function Home() {
       </div>
       <div className="section section-team">
         <div>
-          <h1>Teams</h1>
+          <h1>Our Team</h1>
         </div>
         <div className="card-container">
           <div className="row">
             <div className="column">
-              <div className="card">
+              <div className="card card-team">
+                <img
+                  alt="Google Remote Processor Call"
+                  src={nitesh_image}
+                  height={"50%"}
+                  width={"50%"}
+                  style={{ borderRadius: "50%" }}
+                />
+                <h3>Ramnitesh Saran</h3>
+                <small>Senior Software Developer</small>
+                <br />
+                <br />
+                <div>
+                  <Button style={{ color: "white" }}>
+                    <LinkedInIcon style={{ fontSize: 25, paddingInline: 10 }} />
+                  </Button>{" "}
+                  <Button style={{ color: "white" }}>
+                    <GitHubIcon />
+                  </Button>
+                </div>
+                <br />
+                <Button variant="outlined" style={{ borderRadius: 20 }}>
+                  Download Resume
+                </Button>
+              </div>
+            </div>
+            <div className="column">
+              <div className="card card-team">
                 <img
                   alt="Google Remote Processor Call"
                   src={soniya_image}
                   height={"50%"}
                   width={"50%"}
-                  style={{borderRadius:"50%"}}
+                  style={{ borderRadius: "50%" }}
                 />
                 <h3>Soniya Faroda</h3>
-                <p>Fresher - MERN Stack</p>
+                <small>Fresher - MERN Stack Developer</small>
+                <br />
+                <br />
                 <div>
-                  <LinkedInIcon style={{fontSize:25,paddingInline:10}} /> <GitHubIcon/>
+                  <Button style={{ color: "white" }}>
+                    <LinkedInIcon style={{ fontSize: 25, paddingInline: 10 }} />
+                  </Button>{" "}
+                  <Button style={{ color: "white" }}>
+                    <GitHubIcon />
+                  </Button>
                 </div>
+                <br />
+                <Button variant="outlined" style={{ borderRadius: 20 }}>
+                  Download Resume
+                </Button>
               </div>
             </div>
           </div>
