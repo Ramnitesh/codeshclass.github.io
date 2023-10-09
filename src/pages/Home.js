@@ -14,14 +14,17 @@ import resume_ramnitesh from "../assets/files/ramniteshresume.pdf";
 function Home() {
   function onClickHandler(link) {
     if (link === "dsa")
-      window.location.href =
-        "https://www.youtube.com/watch?v=UdDj8qau4WU&list=PLWiRdVW_EBIxPoK_c5br1MKWKnhRDNJIz";
-    else if (link === "leedcode")
-      window.location.href =
-        "https://www.youtube.com/watch?v=oNzjm7TKoWM&list=PLWiRdVW_EBIx0mo-1bbD0KC_Q2Gab51CH&index=2";
+      window.open(
+        "https://www.youtube.com/watch?v=UdDj8qau4WU&list=PLWiRdVW_EBIxPoK_c5br1MKWKnhRDNJIz"
+      );
+    else if (link === "leetcode")
+      window.open(
+        "https://www.youtube.com/playlist?list=PLWiRdVW_EBIx0mo-1bbD0KC_Q2Gab51CH"
+      );
     else if (link === "grpc") {
-      window.location.href =
-        "https://www.youtube.com/watch?v=rzWwgmhtAyc&list=PLWiRdVW_EBIzQxZhgxdYDbvaVl9YOD4FT";
+      window.open(
+        "https://www.youtube.com/watch?v=rzWwgmhtAyc&list=PLWiRdVW_EBIzQxZhgxdYDbvaVl9YOD4FT"
+      );
     } else if (link === "soniya") {
       window.open("https://www.linkedin.com/in/soniyafaroda");
     } else if (link === "ramnitesh") {
@@ -73,8 +76,9 @@ function Home() {
             style={{ fontWeight: 800 }}
             variant="contained"
             onClick={() => {
-              window.location.href =
-                "https://docs.google.com/forms/d/e/1FAIpQLSfv66tYquRGdbwwcM7mygBQvvrHiAvDUrPITQvNy98wgo2zJg/viewform?usp=sf_link";
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLSfv66tYquRGdbwwcM7mygBQvvrHiAvDUrPITQvNy98wgo2zJg/viewform?usp=sf_link"
+              );
             }}
           >
             Access Now

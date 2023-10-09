@@ -63,7 +63,16 @@ const Layout = () => {
                     </Link>
                   </div>
                   <div className="menu_mobile">
-                    <Link to="/contact">Contact us</Link>
+                    <Link
+                      onClick={() => {
+                        window.open(
+                          "https://docs.google.com/forms/d/e/1FAIpQLSeqY_7Kjm1ggcPmoQ2Vdm1JkGPBNJlllYElOGw9HcvJdo359w/viewform?usp=sf_link"
+                        );
+                      }}
+                      to="/"
+                    >
+                      Contact us
+                    </Link>
                   </div>
                 </div>
               )}
