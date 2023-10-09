@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f22ce818.css",
-    "main.js": "/static/js/main.3b9ce93e.js",
+    "main.css": "/static/css/main.860cd5ab.css",
+    "main.js": "/static/js/main.27495652.js",
     "static/js/787.b0e29ad6.chunk.js": "/static/js/787.b0e29ad6.chunk.js",
     "static/media/right_intro.gif": "/static/media/right_intro.786e9679c31d5956b2b8.gif",
     "static/media/left_intro.gif": "/static/media/left_intro.a73cc817f8b860495a1a.gif",
-    "static/media/team-nitesh.png": "/static/media/team-nitesh.2bc96854f99faae64734.png",
+    "static/media/team-nitesh.png": "/static/media/team-nitesh.f4adab374612750b2441.png",
+    "static/media/ramniteshresume.pdf": "/static/media/ramniteshresume.ef39426fc7c35c6650a0.pdf",
     "static/media/dsa.jpeg": "/static/media/dsa.27066e912241bc503c19.jpeg",
+    "static/media/soniyaresume.pdf": "/static/media/soniyaresume.dfaeef19833a2b3732a9.pdf",
     "static/media/codesh_logo.png": "/static/media/codesh_logo.378c0f9004bf8d1ad68b.png",
-    "static/media/team-soniya.jpeg": "/static/media/team-soniya.b899e7a26d7ac4babd47.jpeg",
     "static/media/grpc.png": "/static/media/grpc.286eb8ad2d5b8ee7625f.png",
     "static/media/leetcode_image.jpg": "/static/media/leetcode_image.1082454b83b2aa990e37.jpg",
+    "static/media/team-soniya.jpeg": "/static/media/team-soniya.ffa3da30f7a1169517cb.jpeg",
     "index.html": "/index.html",
-    "main.f22ce818.css.map": "/static/css/main.f22ce818.css.map",
-    "main.3b9ce93e.js.map": "/static/js/main.3b9ce93e.js.map",
+    "main.860cd5ab.css.map": "/static/css/main.860cd5ab.css.map",
+    "main.27495652.js.map": "/static/js/main.27495652.js.map",
     "787.b0e29ad6.chunk.js.map": "/static/js/787.b0e29ad6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f22ce818.css",
-    "static/js/main.3b9ce93e.js"
+    "static/css/main.860cd5ab.css",
+    "static/js/main.27495652.js"
   ]
 }
