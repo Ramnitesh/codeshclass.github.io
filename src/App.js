@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import AllVideo from "./pages/AllVideo";
 import Contact from "./pages/Contact";
 
-
 export default function App() {
   return (
     <BrowserRouter>
@@ -14,7 +13,6 @@ export default function App() {
           <Route index element={<Home />} />
           <Route index path="allvideo" element={<AllVideo />} />
           <Route path="contact" element={<Contact />} />
-          
         </Route>
       </Routes>
     </BrowserRouter>

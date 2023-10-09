@@ -14,7 +14,7 @@ const Layout = () => {
         <ul>
           <li id="logo_li">
             <Link to="/">
-              <img alt="codesh logo" src={logo_img} height="70px" />
+              <img alt="codesh logo" src={logo_img} height="50px" />
             </Link>
           </li>
           <li id="menu_li">
@@ -22,10 +22,26 @@ const Layout = () => {
               <Link to="/">Courses</Link>
             </div> */}
             <div className="menu">
-              <Link onClick={()=>{window.open("https://www.youtube.com/@code4t")}} to="/">All videos</Link>
+              <Link
+                onClick={() => {
+                  window.open("https://www.youtube.com/@code4t");
+                }}
+                to="/"
+              >
+                All videos
+              </Link>
             </div>
             <div className="menu">
-              <Link to="/contact">Contact us</Link>
+              <Link
+                onClick={() => {
+                  window.open(
+                    "https://docs.google.com/forms/d/e/1FAIpQLSeqY_7Kjm1ggcPmoQ2Vdm1JkGPBNJlllYElOGw9HcvJdo359w/viewform?usp=sf_link"
+                  );
+                }}
+                to="/"
+              >
+                Contact us
+              </Link>
             </div>
             <div id="menu_icon_li">
               <Button onClick={() => setVisibileMenuIcon(!isVisibileMenuIcon)}>
@@ -37,7 +53,14 @@ const Layout = () => {
                     <Link to="/">Courses</Link>
                   </div> */}
                   <div className="menu_mobile">
-                    <Link onClick={()=>{window.open("https://www.youtube.com/@code4t")}} to="/">All videos</Link>
+                    <Link
+                      onClick={() => {
+                        window.open("https://www.youtube.com/@code4t");
+                      }}
+                      to="/"
+                    >
+                      All videos
+                    </Link>
                   </div>
                   <div className="menu_mobile">
                     <Link to="/contact">Contact us</Link>
