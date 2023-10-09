@@ -18,11 +18,11 @@ const Layout = () => {
             </Link>
           </li>
           <li id="menu_li">
-            <div className="menu">
+            {/* <div className="menu">
               <Link to="/">Courses</Link>
-            </div>
+            </div> */}
             <div className="menu">
-              <Link to="/allvideo">All videos</Link>
+              <Link onClick={()=>{window.open("https://www.youtube.com/@code4t")}} to="/">All videos</Link>
             </div>
             <div className="menu">
               <Link to="/contact">Contact us</Link>
@@ -33,11 +33,11 @@ const Layout = () => {
               </Button>
               {!isVisibileMenuIcon && (
                 <div>
-                  <div className="menu_mobile">
+                  {/* <div className="menu_mobile">
                     <Link to="/">Courses</Link>
-                  </div>
+                  </div> */}
                   <div className="menu_mobile">
-                    <Link to="/allvideo">All videos</Link>
+                    <Link onClick={()=>{window.open("https://www.youtube.com/@code4t")}} to="/">All videos</Link>
                   </div>
                   <div className="menu_mobile">
                     <Link to="/contact">Contact us</Link>
@@ -50,6 +50,21 @@ const Layout = () => {
       </nav>
 
       <Outlet />
+      <footer>
+        <ul>
+          <li id="logo_li">
+            <p>Copyright &copy; 2023 www.codeshclass.com</p>
+          </li>
+          <li id="footer_li">
+            <div className="footer-item">
+              <Link to="/terms">Terms</Link>
+            </div>
+            <div className="footer-item">
+              <Link to="/privacy">Privacy</Link>
+            </div>
+          </li>
+        </ul>
+      </footer>
     </>
   );
 };

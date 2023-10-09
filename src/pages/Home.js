@@ -9,6 +9,7 @@ import soniya_image from "../assets/images/team-soniya.jpeg";
 import nitesh_image from "../assets/images/team-nitesh.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import resume_soniya from "../assets/files/soniyaresume.pdf"
 function Home() {
   function onClickHandler(link) {
     if (link === "dsa")
@@ -20,6 +21,29 @@ function Home() {
     else if (link === "grpc") {
       window.location.href =
         "https://www.youtube.com/watch?v=rzWwgmhtAyc&list=PLWiRdVW_EBIzQxZhgxdYDbvaVl9YOD4FT";
+    }
+    else if (link === "soniya") {
+      window.location.href =
+        "https://www.linkedin.com/in/soniyafaroda";
+    }
+    else if (link === "ramnitesh") {
+      window.location.href =
+        "https://www.linkedin.com/in/rnsaran";
+    }
+    else if (link === "ramniteshgithub") {
+      window.location.href =
+        "https://github.com/ramnitesh";
+    }
+
+    else if (link === "soniyagithub") {
+      window.location.href =
+        "https://github.com/soniyafaroda";
+    }
+    else if (link === "ramnitesh_resume") {
+      //window.open();
+    }
+    else if(link === "soniya_resume"){
+      window.open(resume_soniya);
     }
   }
   return (
@@ -159,15 +183,15 @@ function Home() {
                 <br />
                 <br />
                 <div>
-                  <Button style={{ color: "white" }}>
+                  <Button onClick={() => onClickHandler("ramnitesh")} style={{ color: "white" }}>
                     <LinkedInIcon style={{ fontSize: 25, paddingInline: 10 }} />
                   </Button>{" "}
-                  <Button style={{ color: "white" }}>
+                  <Button onClick={() => onClickHandler("ramniteshgithub")} style={{ color: "white" }}>
                     <GitHubIcon />
                   </Button>
                 </div>
                 <br />
-                <Button variant="outlined" style={{ borderRadius: 20 }}>
+                <Button onClick={() => onClickHandler("ramnitesh_resume")} variant="outlined" style={{ borderRadius: 20 }}>
                   Download Resume
                 </Button>
               </div>
@@ -182,19 +206,20 @@ function Home() {
                   style={{ borderRadius: "50%" }}
                 />
                 <h3>Soniya Faroda</h3>
-                <small>Fresher - MERN Stack Developer</small>
+                <small>Fresher - Reactjs Developer </small>
+
                 <br />
                 <br />
                 <div>
-                  <Button style={{ color: "white" }}>
+                  <Button onClick={() => onClickHandler("soniya")} style={{ color: "white" }}>
                     <LinkedInIcon style={{ fontSize: 25, paddingInline: 10 }} />
                   </Button>{" "}
-                  <Button style={{ color: "white" }}>
+                  <Button onClick={() => onClickHandler("soniyagithub")} style={{ color: "white" }}>
                     <GitHubIcon />
                   </Button>
                 </div>
                 <br />
-                <Button variant="outlined" style={{ borderRadius: 20 }}>
+                <Button onClick={() => onClickHandler("soniya_resume")} variant="outlined" style={{ borderRadius: 20 }}>
                   Download Resume
                 </Button>
               </div>
