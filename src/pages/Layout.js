@@ -89,10 +89,10 @@ const Layout = () => {
           </li>
           <li id="footer_li">
             <div className="footer-item">
-              <Link to="/terms">Terms</Link>
+              <Link to="policy/terms-conditions">Terms</Link>
             </div>
             <div className="footer-item">
-              <Link to="/privacy">Privacy</Link>
+              <Link to="policy/privacy-policy">Privacy</Link>
             </div>
           </li>
         </ul>
