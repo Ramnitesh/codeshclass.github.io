@@ -1,0 +1,10 @@
+.section-pt{
+    padding: 5%;
+    background-color: whitesmoke;
+}
+.content-pt{
+    text-align: left;
+    padding: 1% 5%;
+    background-color: white;
+    border-radius: 1%;
+}
