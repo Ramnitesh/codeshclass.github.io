@@ -192,7 +192,7 @@ function Home() {
                 </div>
                 <br />
                 <Button
-                  onClick={() => onClickHandler("ramnitesh_resume")}
+                  onClick={() => onClickHandler("ramnitesh_saran_resume")}
                   variant="outlined"
                   style={{ borderRadius: 20 }}
                 >
@@ -230,7 +230,7 @@ function Home() {
                 </div>
                 <br />
                 <Button
-                  onClick={() => onClickHandler("soniya_resume")}
+                  onClick={() => onClickHandler("soniya_faroda_resume")}
                   variant="outlined"
                   style={{ borderRadius: 20 }}
                 >
