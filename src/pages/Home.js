@@ -9,8 +9,8 @@ import soniya_image from "../assets/images/team-soniya.jpeg";
 import nitesh_image from "../assets/images/team-nitesh.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import resume_soniya from "../assets/files/soniyaresume.pdf";
-import resume_ramnitesh from "../assets/files/ramniteshresume.pdf";
+import resume_soniya from "../assets/files/soniyafarodaresume.pdf";
+import resume_ramnitesh from "../assets/files/ramniteshsaranresume.pdf";
 function Home() {
   function onClickHandler(link) {
     if (link === "dsa")
