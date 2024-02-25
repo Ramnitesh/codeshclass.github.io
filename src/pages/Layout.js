@@ -85,7 +85,9 @@ const Layout = () => {
       <footer>
         <ul>
           <li id="logo_li">
-            <p>Copyright &copy; 2023 www.codeshclass.com</p>
+            <p>
+              Copyright &copy; {new Date().getFullYear()} www.codeshclass.com
+            </p>
           </li>
           <li id="footer_li">
             <div className="footer-item">
