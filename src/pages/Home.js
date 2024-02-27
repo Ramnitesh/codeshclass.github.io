@@ -106,6 +106,8 @@ function Home() {
                     className="course-img"
                     alt="Full Stack Development"
                     src={coursefullstack_image}
+                    width={"100%"}
+                    height={"100%"}
                   />
                   <h3>Full Stack Development</h3>
                   <p>Duration : 8 Months</p>
@@ -119,6 +121,8 @@ function Home() {
                     className="course-img"
                     alt="MERN Stack Development"
                     src={coursemern_image}
+                    width={"100%"}
+                    height={"100%"}
                   />
                   <h3>MERN Stack Development</h3>
                   <p>Duration : 6 Months</p>
@@ -132,6 +136,8 @@ function Home() {
                     className="course-img"
                     alt="Complete Dot Net Development"
                     src={coursedotnetpic_image}
+                    width={"100%"}
+                    height={"100%"}
                   />
                   <h3>Complete Dot Net Development</h3>
                   <p>Duration : 10 Months</p>
@@ -145,6 +151,8 @@ function Home() {
                     className="course-img"
                     alt="Quality Analyst Testing"
                     src={courseqatester_image}
+                    width={"100%"}
+                    height={"100%"}
                   />
                   <h3>Quality Analyst Testing</h3>
                   <p>Duration : 6 Months</p>
