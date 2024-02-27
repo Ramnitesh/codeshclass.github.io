@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce54ec37.css",
+    "main.css": "/static/css/main.396c4cc2.css",
     "main.js": "/static/js/main.48de502a.js",
     "static/js/787.b0e29ad6.chunk.js": "/static/js/787.b0e29ad6.chunk.js",
     "static/media/right_intro.gif": "/static/media/right_intro.786e9679c31d5956b2b8.gif",
@@ -22,12 +22,12 @@
     "static/media/leetcode_image.jpg": "/static/media/leetcode_image.1082454b83b2aa990e37.jpg",
     "static/media/team-soniya.jpeg": "/static/media/team-soniya.ffa3da30f7a1169517cb.jpeg",
     "index.html": "/index.html",
-    "main.ce54ec37.css.map": "/static/css/main.ce54ec37.css.map",
+    "main.396c4cc2.css.map": "/static/css/main.396c4cc2.css.map",
     "main.48de502a.js.map": "/static/js/main.48de502a.js.map",
     "787.b0e29ad6.chunk.js.map": "/static/js/787.b0e29ad6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce54ec37.css",
+    "static/css/main.396c4cc2.css",
     "static/js/main.48de502a.js"
   ]
 }
