@@ -13,10 +13,15 @@ import grpc_image from "../assets/images/grpc.png";
 import soniya_image from "../assets/images/team-soniya.jpeg";
 import nitesh_image from "../assets/images/team-nitesh.png";
 import surendra_image from "../assets/images/surendraprofilepic.jpeg";
+import navyashree_image from "../assets/images/navyashree.jpeg";
+import amit_image from "../assets/images/amitprofile.jpeg";
+import soumya_image from "../assets/images/soumyaprofile.jpeg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import resume_soniya from "../assets/files/soniyafarodaresume.pdf";
 import resume_ramnitesh from "../assets/files/ramniteshsaranresume.pdf";
+import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
+
 function Home() {
   function onClickHandler(link) {
     if (link === "dsa")
@@ -350,6 +355,131 @@ function Home() {
                 >
                   Download Resume
                 </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="section-student">
+        <div className="section">
+          <h1>Our Students Review</h1>
+          <p>
+            It's not just NUMBERS, it's Value
+            <br />
+            we CREATED for STUNDENS.
+          </p>
+        </div>
+        <div className="card-container review">
+          <div className="row">
+            <div className="column">
+              <div className="card">
+                {/* <span className="double-quotes">&#8220;</span> */}
+                <FormatQuoteIcon
+                  style={{ rotate: "180deg", fontSize: "30px" }}
+                />
+                <p>
+                  Its a good place for mean stack development training course in
+                  noida. Aslo supportive staff and provides placement, develops
+                  the communication and development skills.
+                </p>
+                <div
+                  onClick={() => {
+                    onClickHandler("surendra");
+                  }}
+                >
+                  <table>
+                    <tr>
+                      <td>
+                        <img
+                          alt="Navyashree reviewer"
+                          src={navyashree_image}
+                          height={"50px"}
+                          width={"50px"}
+                          style={{ borderRadius: "50%" }}
+                        />
+                      </td>
+                      <td>
+                        <strong>Navyashree B S</strong>
+                        <br />
+                        <small>Full Stack Developer</small>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div className="column">
+              <div className="card">
+                {/* <span className="double-quotes">&#8220;</span> */}
+                <FormatQuoteIcon
+                  style={{ rotate: "180deg", fontSize: "30px" }}
+                />
+                <p>
+                  "It's the best choice to start a career in Technology. Thanks
+                  to Nitesh sir for their support and encouragement throughout
+                  the course and getting placed in the company."
+                </p>
+                <div
+                  onClick={() => {
+                    onClickHandler("surendra");
+                  }}
+                >
+                  <table>
+                    <tr>
+                      <td>
+                        <img
+                          alt="amit reviewer"
+                          src={amit_image}
+                          height={"50px"}
+                          width={"50px"}
+                          style={{ borderRadius: "50%" }}
+                        />
+                      </td>
+                      <td>
+                        <strong>Amit Bhardwaj</strong>
+                        <br />
+                        <small>Full Stack Developer</small>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div className="column">
+              <div className="card">
+                {/* <span className="double-quotes">&#8220;</span> */}
+                <FormatQuoteIcon
+                  style={{ rotate: "180deg", fontSize: "30px" }}
+                />
+                <p>
+                  CodeshClass helped me to overcome my fear f coding. It's start
+                  from basics. The mentor are very helpful and they teaching is
+                  very good.
+                </p>
+                <div
+                  onClick={() => {
+                    onClickHandler("surendra");
+                  }}
+                >
+                  <table>
+                    <tr>
+                      <td>
+                        <img
+                          alt="surendre reviewer"
+                          src={soumya_image}
+                          height={"50px"}
+                          width={"50px"}
+                          style={{ borderRadius: "50%" }}
+                        />
+                      </td>
+                      <td>
+                        <strong>Soumya Sharma</strong>
+                        <br />
+                        <small>Full Stack Developer</small>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
               </div>
             </div>
           </div>

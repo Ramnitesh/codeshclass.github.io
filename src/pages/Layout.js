@@ -64,6 +64,7 @@ const Layout = () => {
       </nav>
 
       <Outlet />
+      <div class="clear"></div>
       <footer>
         <ul>
           <li id="logo_li">
