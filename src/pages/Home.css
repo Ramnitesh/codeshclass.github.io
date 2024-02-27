@@ -59,6 +59,9 @@
     display: block;
     margin-bottom: 20px;
   }
+  .review .column {
+    width: 100% !important;
+  }
   #header {
     font-size: 0.8em;
   }
