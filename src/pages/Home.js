@@ -1,12 +1,18 @@
 import "./Home.css";
+import { Link } from "react-router-dom";
 import left_intro from "../assets/videos/left_intro.gif";
 import right_intro from "../assets/videos/right_intro.gif";
 import Button from "@mui/material/Button";
+import coursefullstack_image from "../assets/images/coursefullstack.jpg";
+import coursemern_image from "../assets/images/coursemern.avif";
+import coursedotnetpic_image from "../assets/images/coursedotnetpic.jpg";
+import courseqatester_image from "../assets/images/courseqatester.jpeg";
 import dsa_image from "../assets/images/dsa.jpeg";
 import leetcode_image from "../assets/images/leetcode_image.jpg";
 import grpc_image from "../assets/images/grpc.png";
 import soniya_image from "../assets/images/team-soniya.jpeg";
 import nitesh_image from "../assets/images/team-nitesh.png";
+import surendra_image from "../assets/images/surendraprofilepic.jpeg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import resume_soniya from "../assets/files/soniyafarodaresume.pdf";
@@ -27,6 +33,8 @@ function Home() {
       );
     } else if (link === "soniya") {
       window.open("https://www.linkedin.com/in/soniyafaroda");
+    } else if (link === "surendra") {
+      window.open("https://www.linkedin.com/in/surendra-pilaniia-b3462257");
     } else if (link === "ramnitesh") {
       window.open("https://www.linkedin.com/in/rnsaran");
     } else if (link === "ramniteshgithub") {
@@ -85,9 +93,70 @@ function Home() {
           </Button>
         </div>
       </div>
+      <div className="section section-team">
+        <div>
+          <h1>Explore Our Paid Courses</h1>
+        </div>
+        <div className="card-container">
+          <div className="row">
+            <div className="column">
+              <Link to="course">
+                <div className="card">
+                  <img
+                    className="course-img"
+                    alt="Full Stack Development"
+                    src={coursefullstack_image}
+                  />
+                  <h3>Full Stack Development</h3>
+                  <p>Duration : 8 Months</p>
+                </div>
+              </Link>
+            </div>
+            <div className="column">
+              <Link to="course">
+                <div className="card">
+                  <img
+                    className="course-img"
+                    alt="MERN Stack Development"
+                    src={coursemern_image}
+                  />
+                  <h3>MERN Stack Development</h3>
+                  <p>Duration : 6 Months</p>
+                </div>
+              </Link>
+            </div>
+            <div className="column">
+              <Link to="course">
+                <div className="card">
+                  <img
+                    className="course-img"
+                    alt="Complete Dot Net Development"
+                    src={coursedotnetpic_image}
+                  />
+                  <h3>Complete Dot Net Development</h3>
+                  <p>Duration : 10 Months</p>
+                </div>
+              </Link>
+            </div>
+            <div className="column">
+              <Link to="course">
+                <div className="card">
+                  <img
+                    className="course-img"
+                    alt="Quality Analyst Testing"
+                    src={courseqatester_image}
+                  />
+                  <h3>Quality Analyst Testing</h3>
+                  <p>Duration : 6 Months</p>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="section section-course">
         <div>
-          <h1>Courses Available</h1>
+          <h1>Free Courses Available</h1>
           <p>Click on the course to learn more</p>
           <br />
           <br />
@@ -204,13 +273,50 @@ function Home() {
               <div className="card card-team">
                 <img
                   alt="Google Remote Processor Call"
+                  src={surendra_image}
+                  height={"50%"}
+                  width={"50%"}
+                  style={{ borderRadius: "50%" }}
+                />
+                <h3>Surendra Pilaniya</h3>
+                <small>Full Stack Developer - @RAD Techno</small>
+                <br />
+                <br />
+                <div>
+                  <Button
+                    onClick={() => onClickHandler("surendra")}
+                    style={{ color: "white" }}
+                  >
+                    <LinkedInIcon style={{ fontSize: 25, paddingInline: 10 }} />
+                  </Button>{" "}
+                  <Button
+                    onClick={() => onClickHandler("surendragithub")}
+                    style={{ color: "white" }}
+                  >
+                    <GitHubIcon />
+                  </Button>
+                </div>
+                <br />
+                <Button
+                  onClick={() => onClickHandler("ramnitesh_saran_resume")}
+                  variant="outlined"
+                  style={{ borderRadius: 20 }}
+                >
+                  Download Resume
+                </Button>
+              </div>
+            </div>
+            <div className="column">
+              <div className="card card-team">
+                <img
+                  alt="Google Remote Processor Call"
                   src={soniya_image}
                   height={"50%"}
                   width={"50%"}
                   style={{ borderRadius: "50%" }}
                 />
                 <h3>Soniya Faroda</h3>
-                <small>Fresher - ReactJS Developer (MERN Stack) </small>
+                <small>Junior - ReactJS Developer (MERN Stack) </small>
 
                 <br />
                 <br />

@@ -127,7 +127,7 @@ const Terms = () => {
             Company, in good faith, believes such disclosure is necessary to
             comply with the law or enforce these Terms of Use. By using the
             Site, you signify your acceptance of the Company’s Privacy Policy,{" "}
-            <a href="https://www.codeshclass.com/policy/privacy-policy">
+            <a href="privacy-policy">
               https://www.codeshclass.com/policy/privacy-policy
             </a>
             . If you do not agree with this Privacy Policy, in whole or part,

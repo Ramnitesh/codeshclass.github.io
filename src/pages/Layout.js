@@ -32,16 +32,7 @@ const Layout = () => {
               </Link>
             </div>
             <div className="menu">
-              <Link
-                onClick={() => {
-                  window.open(
-                    "https://docs.google.com/forms/d/e/1FAIpQLSeqY_7Kjm1ggcPmoQ2Vdm1JkGPBNJlllYElOGw9HcvJdo359w/viewform?usp=sf_link"
-                  );
-                }}
-                to="/"
-              >
-                Contact us
-              </Link>
+              <Link to="contact">Contact us</Link>
             </div>
             <div id="menu_icon_li">
               <Button onClick={() => setVisibileMenuIcon(!isVisibileMenuIcon)}>
@@ -69,7 +60,7 @@ const Layout = () => {
                           "https://docs.google.com/forms/d/e/1FAIpQLSeqY_7Kjm1ggcPmoQ2Vdm1JkGPBNJlllYElOGw9HcvJdo359w/viewform?usp=sf_link"
                         );
                       }}
-                      to="/"
+                      to="contact"
                     >
                       Contact us
                     </Link>

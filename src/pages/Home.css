@@ -80,12 +80,29 @@
   color: black;
   border-radius: 5px;
 }
-.course-img:hover {
-  cursor: pointer;
-}
 .card-team {
   background-color: black;
   color: white;
   padding: 10%;
 }
 
+a {
+  text-decoration: none;
+}
+a :hover {
+  color: rgb(208, 208, 217);
+}
+.course-img {
+  transition: transform 0.2s;
+}
+.course-img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(0.95);
+  cursor: pointer;
+}
+.course-img {
+  max-width: 100%;
+  height: 100%;
+  aspect-ratio: 3/1.7;
+}

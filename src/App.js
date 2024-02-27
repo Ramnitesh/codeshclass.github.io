@@ -4,6 +4,8 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
+import Course from "./pages/Course";
+import Contact from "./pages/Contact";
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
           <Route index element={<Home />} />
           <Route index path="policy/terms-conditions" element={<Terms />} />
           <Route path="policy/privacy-policy" element={<Privacy />} />
+          <Route path="course" element={<Course />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
