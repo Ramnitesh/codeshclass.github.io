@@ -73,13 +73,12 @@ const Layout = () => {
         />
       </div> */}
       <a
-        href="https://wa.me/07014187078"
-        class="whatsapp_float"
+        href="whatsapp://send?abid=+91-7014187078&text=I'd like to chat with you."
         target="_blank"
         rel="noopener noreferrer"
       >
         {/* <i class="fa fa-whatsapp whatsapp-icon"></i> */}
-        <WhatsAppIcon className="fa fa-whatsapp whatsapp-icon" />
+        <WhatsAppIcon className="whatsapp_float" />
       </a>
       <footer>
         <ul>

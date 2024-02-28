@@ -84,21 +84,16 @@ footer ul {
 
 .whatsapp_float {
   position: fixed;
-  width: 60px;
-  height: 60px;
   bottom: 40px;
   right: 40px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
+  color: #25d366;
   text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
+  font-size: 50px !important;
   z-index: 100;
-}
-
-.whatsapp-icon {
-  margin-top: 16px;
+  animation: blink-animation 1s infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
 }
 
 /* for mobile */
@@ -108,10 +103,24 @@ footer ul {
   }
 
   .whatsapp_float {
-    width: 40px;
-    height: 40px;
     bottom: 20px;
     right: 10px;
-    font-size: 22px;
+    font-size: 30px !important;
+    animation: blink-animation 1s infinite;
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+}
+
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
