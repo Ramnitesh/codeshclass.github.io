@@ -29,7 +29,7 @@ const Contact = () => {
             <PhoneIcon style={{ fontSize: 25, paddingInline: 10 }} />
             <p>+91-7339937969</p>
           </a>
-          <a href="https://wa.me/07339937969?text=I'd like to chat with you regarding codesh classes course.">
+          <a href="https://wa.me/917339937969?text=I'd like to chat with you regarding codesh classes course.">
             <WhatsAppIcon style={{ fontSize: 25, paddingInline: 10 }} />
             <p>+91-7339937969</p>
           </a>
