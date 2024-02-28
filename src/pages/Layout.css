@@ -91,7 +91,7 @@ footer ul {
   right: 40px;
   color: white;
   text-align: center;
-  font-size: 25px !important;
+  font-size: 35px !important;
   z-index: 100;
   animation: blink-animation 3s infinite;
   &:hover {
@@ -106,10 +106,10 @@ footer ul {
   }
 
   .whatsapp_float {
-    padding: 1%;
+    padding: 1.5%;
     bottom: 20px;
     right: 10px;
-    font-size: 20px !important;
+    font-size: 30px !important;
     animation: blink-animation 3s infinite;
     &:hover {
       animation-play-state: paused;

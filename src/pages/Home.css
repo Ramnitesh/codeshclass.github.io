@@ -115,7 +115,7 @@ a :hover {
   align-items: start;
   text-align: left;
   color: #5b5f67;
-  font-family: cursive;
+  font-family: monospace;
   margin-top: 0;
 }
 .review table {

@@ -364,7 +364,7 @@ function Home() {
         <div className="section">
           <h1>Our Students Review</h1>
           <p>
-            It's not just NUMBERS, it's Value
+            It's not just NUMBERS, it's VALUE
             <br />
             we CREATED for STUNDENS.
           </p>
@@ -401,7 +401,7 @@ function Home() {
                       <td>
                         <strong>Navyashree B S</strong>
                         <br />
-                        <small>Full Stack Developer</small>
+                        <small>Web Developer</small>
                       </td>
                     </tr>
                   </table>
@@ -475,7 +475,7 @@ function Home() {
                       <td>
                         <strong>Soumya Sharma</strong>
                         <br />
-                        <small>Full Stack Developer</small>
+                        <small>MERN Stack Developer</small>
                       </td>
                     </tr>
                   </table>

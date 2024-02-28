@@ -26,7 +26,7 @@ const Layout = () => {
             <div className="menu">
               <Link
                 onClick={() => {
-                  window.open("https://www.youtube.com/@code4t");
+                  window.open("https://www.youtube.com/@codeshclass");
                 }}
                 to="/"
               >
@@ -48,7 +48,7 @@ const Layout = () => {
                   <div className="menu_mobile">
                     <Link
                       onClick={() => {
-                        window.open("https://www.youtube.com/@code4t");
+                        window.open("https://www.youtube.com/@codeshclass");
                       }}
                       to="/"
                     >
@@ -73,9 +73,10 @@ const Layout = () => {
         />
       </div> */}
       <a
-        href="whatsapp://send?abid=+91-7014187078&text=I'd like to chat with you."
+        href="https://wa.me/07014187078?text=I'd like to chat with you regarding codesh classes course."
         target="_blank"
         rel="noopener noreferrer"
+        className="whatsapp-icon"
       >
         {/* <i class="fa fa-whatsapp whatsapp-icon"></i> */}
         <WhatsAppIcon className="whatsapp_float" />
