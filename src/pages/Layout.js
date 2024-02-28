@@ -73,7 +73,7 @@ const Layout = () => {
         />
       </div> */}
       <a
-        href="https://wa.me/07014187078?text=I'd like to chat with you regarding codesh classes course."
+        href="https://wa.me/917014187078?text=I'd like to chat with you regarding codesh classes course."
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-icon"
