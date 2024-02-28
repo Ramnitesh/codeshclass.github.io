@@ -5,6 +5,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import { Button } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+
 const Layout = () => {
   const [isVisibileMenuIcon, setVisibileMenuIcon] = useState(true);
 
@@ -64,7 +66,21 @@ const Layout = () => {
       </nav>
 
       <Outlet />
-      <div class="clear"></div>
+      {/* <div class="clear"></div> */}
+      {/* <div className="whatsapp-icon">
+        <WhatsAppIcon
+          style={{ fontSize: 25, paddingInline: 10, color: "green" }}
+        />
+      </div> */}
+      <a
+        href="https://wa.me/07014187078"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {/* <i class="fa fa-whatsapp whatsapp-icon"></i> */}
+        <WhatsAppIcon className="fa fa-whatsapp whatsapp-icon" />
+      </a>
       <footer>
         <ul>
           <li id="logo_li">

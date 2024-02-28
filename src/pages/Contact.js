@@ -1,6 +1,7 @@
 import PlaceIcon from "@mui/icons-material/Place";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const Contact = () => {
   return (
@@ -28,8 +29,13 @@ const Contact = () => {
             <PhoneIcon style={{ fontSize: 25, paddingInline: 10 }} />
             <p>+91-7339937969</p>
           </a>
+          <a href="whatsapp://send?abid=07339937969&text=I'd like to chat with you">
+            <WhatsAppIcon style={{ fontSize: 25, paddingInline: 10 }} />
+            <p>+91-7339937969</p>
+          </a>
         </div>
       </div>
+      <div class="clear"></div>
     </>
   );
 };
