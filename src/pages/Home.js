@@ -240,7 +240,7 @@ function Home() {
                 <small>Ex @Siemens</small>
                 <br />
                 <br />
-                <strong>Tech Veterans</strong>
+                <strong>Tech Veteran</strong>
               </div>
             </div>
             <div className="column">
@@ -256,7 +256,7 @@ function Home() {
                 <small>Ex @RedTechno</small>
                 <br />
                 <br />
-                <strong>Tech Veterans</strong>
+                <strong>Tech Veteran</strong>
               </div>
             </div>
             <div className="column">
