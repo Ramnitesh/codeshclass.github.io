@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4517184f.css",
-    "main.js": "/static/js/main.e1d79226.js",
+    "main.js": "/static/js/main.8c2fc1e7.js",
     "static/js/787.b0e29ad6.chunk.js": "/static/js/787.b0e29ad6.chunk.js",
     "static/media/right_intro.gif": "/static/media/right_intro.786e9679c31d5956b2b8.gif",
     "static/media/left_intro.gif": "/static/media/left_intro.a73cc817f8b860495a1a.gif",
@@ -10,11 +10,9 @@
     "static/media/codesh_logo.png": "/static/media/codesh_logo.89f88582d1c4ebc2d269.png",
     "static/media/surendraprofilepic.jpeg": "/static/media/surendraprofilepic.5d6ad2b8293bda253845.jpeg",
     "static/media/navyashree.jpeg": "/static/media/navyashree.e06429a72dcf442bf4ae.jpeg",
-    "static/media/ramniteshsaranresume.pdf": "/static/media/ramniteshsaranresume.ef39426fc7c35c6650a0.pdf",
     "static/media/coursedotnetpic.jpg": "/static/media/coursedotnetpic.b7c688affc3d17eb2beb.jpg",
     "static/media/courseqatester.jpeg": "/static/media/courseqatester.fe99734d70577ecbe505.jpeg",
     "static/media/dsa.jpeg": "/static/media/dsa.27066e912241bc503c19.jpeg",
-    "static/media/soniyafarodaresume.pdf": "/static/media/soniyafarodaresume.dfaeef19833a2b3732a9.pdf",
     "static/media/coursefullstack.jpg": "/static/media/coursefullstack.d0f69410b9a678b1c943.jpg",
     "static/media/soumyaprofile.jpeg": "/static/media/soumyaprofile.102fe807e44d7b434d07.jpeg",
     "static/media/coursemern.avif": "/static/media/coursemern.8145013c92734c843775.avif",
@@ -23,11 +21,11 @@
     "static/media/team-soniya.jpeg": "/static/media/team-soniya.ffa3da30f7a1169517cb.jpeg",
     "index.html": "/index.html",
     "main.4517184f.css.map": "/static/css/main.4517184f.css.map",
-    "main.e1d79226.js.map": "/static/js/main.e1d79226.js.map",
+    "main.8c2fc1e7.js.map": "/static/js/main.8c2fc1e7.js.map",
     "787.b0e29ad6.chunk.js.map": "/static/js/787.b0e29ad6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4517184f.css",
-    "static/js/main.e1d79226.js"
+    "static/js/main.8c2fc1e7.js"
   ]
 }
