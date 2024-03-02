@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Button } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import ArrowRightOutlinedIcon from "@mui/icons-material/ArrowRightOutlined";
 
 const Layout = () => {
   const [isVisibileMenuIcon, setVisibileMenuIcon] = useState(true);
@@ -30,7 +31,13 @@ const Layout = () => {
                 }}
                 to="/"
               >
-                All videos
+                <ArrowRightOutlinedIcon
+                  style={{
+                    backgroundColor: "red",
+                    paddingInline: "5px",
+                    borderRadius: 4,
+                  }}
+                />
               </Link>
             </div>
             <div className="menu">
@@ -52,7 +59,13 @@ const Layout = () => {
                       }}
                       to="/"
                     >
-                      All videos
+                      <ArrowRightOutlinedIcon
+                        style={{
+                          backgroundColor: "red",
+                          paddingInline: "5px",
+                          borderRadius: 4,
+                        }}
+                      />
                     </Link>
                   </div>
                   <div className="menu_mobile">
@@ -73,7 +86,7 @@ const Layout = () => {
         />
       </div> */}
       <a
-        href="https://wa.me/917014187078?text=I'd like to chat with you regarding codesh classes course."
+        href="https://wa.me/917339937969?text=I'd like to chat with you regarding codesh classes course."
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-icon"

@@ -16,10 +16,6 @@ import surendra_image from "../assets/images/surendraprofilepic.jpeg";
 import navyashree_image from "../assets/images/navyashree.jpeg";
 import amit_image from "../assets/images/amitprofile.jpeg";
 import soumya_image from "../assets/images/soumyaprofile.jpeg";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import resume_soniya from "../assets/files/soniyafarodaresume.pdf";
-import resume_ramnitesh from "../assets/files/ramniteshsaranresume.pdf";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 
 function Home() {
@@ -36,20 +32,6 @@ function Home() {
       window.open(
         "https://www.youtube.com/watch?v=rzWwgmhtAyc&list=PLWiRdVW_EBIzQxZhgxdYDbvaVl9YOD4FT"
       );
-    } else if (link === "soniya") {
-      window.open("https://www.linkedin.com/in/soniyafaroda");
-    } else if (link === "surendra") {
-      window.open("https://www.linkedin.com/in/surendra-pilaniia-b3462257");
-    } else if (link === "ramnitesh") {
-      window.open("https://www.linkedin.com/in/rnsaran");
-    } else if (link === "ramniteshgithub") {
-      window.open("https://github.com/ramnitesh");
-    } else if (link === "soniyagithub") {
-      window.open("https://github.com/soniyafaroda");
-    } else if (link === "ramnitesh_resume") {
-      window.open(resume_ramnitesh);
-    } else if (link === "soniya_resume") {
-      window.open(resume_soniya);
     }
   }
   return (
@@ -255,31 +237,10 @@ function Home() {
                   style={{ borderRadius: "50%" }}
                 />
                 <h3>Ramnitesh Saran</h3>
-                <small>Senior Software Developer - Ex @Siemens</small>
+                <small>Ex @Siemens</small>
                 <br />
                 <br />
-                <div>
-                  <Button
-                    onClick={() => onClickHandler("ramnitesh")}
-                    style={{ color: "white" }}
-                  >
-                    <LinkedInIcon style={{ fontSize: 25, paddingInline: 10 }} />
-                  </Button>{" "}
-                  <Button
-                    onClick={() => onClickHandler("ramniteshgithub")}
-                    style={{ color: "white" }}
-                  >
-                    <GitHubIcon />
-                  </Button>
-                </div>
-                <br />
-                <Button
-                  onClick={() => onClickHandler("ramnitesh_saran_resume")}
-                  variant="outlined"
-                  style={{ borderRadius: 20 }}
-                >
-                  Download Resume
-                </Button>
+                <strong>Tech Veterans</strong>
               </div>
             </div>
             <div className="column">
@@ -292,31 +253,10 @@ function Home() {
                   style={{ borderRadius: "50%" }}
                 />
                 <h3>Surendra Pilaniya</h3>
-                <small>Full Stack Developer - @RAD Techno</small>
+                <small>Ex @RedTechno</small>
                 <br />
                 <br />
-                <div>
-                  <Button
-                    onClick={() => onClickHandler("surendra")}
-                    style={{ color: "white" }}
-                  >
-                    <LinkedInIcon style={{ fontSize: 25, paddingInline: 10 }} />
-                  </Button>{" "}
-                  <Button
-                    onClick={() => onClickHandler("surendragithub")}
-                    style={{ color: "white" }}
-                  >
-                    <GitHubIcon />
-                  </Button>
-                </div>
-                <br />
-                <Button
-                  onClick={() => onClickHandler("ramnitesh_saran_resume")}
-                  variant="outlined"
-                  style={{ borderRadius: 20 }}
-                >
-                  Download Resume
-                </Button>
+                <strong>Tech Veterans</strong>
               </div>
             </div>
             <div className="column">
@@ -329,32 +269,10 @@ function Home() {
                   style={{ borderRadius: "50%" }}
                 />
                 <h3>Soniya Faroda</h3>
-                <small>Junior - ReactJS Developer (MERN Stack) </small>
-
+                <small>@HexaTech</small>
                 <br />
                 <br />
-                <div>
-                  <Button
-                    onClick={() => onClickHandler("soniya")}
-                    style={{ color: "white" }}
-                  >
-                    <LinkedInIcon style={{ fontSize: 25, paddingInline: 10 }} />
-                  </Button>{" "}
-                  <Button
-                    onClick={() => onClickHandler("soniyagithub")}
-                    style={{ color: "white" }}
-                  >
-                    <GitHubIcon />
-                  </Button>
-                </div>
-                <br />
-                <Button
-                  onClick={() => onClickHandler("soniya_faroda_resume")}
-                  variant="outlined"
-                  style={{ borderRadius: 20 }}
-                >
-                  Download Resume
-                </Button>
+                <strong>Developer</strong>
               </div>
             </div>
           </div>
@@ -382,11 +300,7 @@ function Home() {
                   noida. Aslo supportive staff and provides placement, develops
                   the communication and development skills.
                 </p>
-                <div
-                  onClick={() => {
-                    onClickHandler("surendra");
-                  }}
-                >
+                <div>
                   <table>
                     <tr>
                       <td>
@@ -419,11 +333,7 @@ function Home() {
                   to Nitesh sir for their support and encouragement throughout
                   the course and getting placed in the company."
                 </p>
-                <div
-                  onClick={() => {
-                    onClickHandler("surendra");
-                  }}
-                >
+                <div>
                   <table>
                     <tr>
                       <td>
@@ -456,16 +366,12 @@ function Home() {
                   from basics. The mentor are very helpful and they teaching is
                   very good.
                 </p>
-                <div
-                  onClick={() => {
-                    onClickHandler("surendra");
-                  }}
-                >
+                <div>
                   <table>
                     <tr>
                       <td>
                         <img
-                          alt="surendre reviewer"
+                          alt="Soumya reviewer"
                           src={soumya_image}
                           height={"50px"}
                           width={"50px"}
