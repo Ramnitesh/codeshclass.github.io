@@ -12,7 +12,7 @@ import leetcode_image from "../assets/images/leetcode_image.jpg";
 import grpc_image from "../assets/images/grpc.png";
 import soniya_image from "../assets/images/team-soniya.jpeg";
 import nitesh_image from "../assets/images/team-nitesh.png";
-import surendra_image from "../assets/images/surendraprofilepic.jpeg";
+// import surendra_image from "../assets/images/surendraprofilepic.jpeg";
 import navyashree_image from "../assets/images/navyashree.jpeg";
 import amit_image from "../assets/images/amitprofile.jpeg";
 import soumya_image from "../assets/images/soumyaprofile.jpeg";
@@ -243,7 +243,7 @@ function Home() {
                 <strong>Tech Veteran</strong>
               </div>
             </div>
-            <div className="column">
+            {/* <div className="column">
               <div className="card card-team">
                 <img
                   alt="Google Remote Processor Call"
@@ -253,12 +253,12 @@ function Home() {
                   style={{ borderRadius: "50%" }}
                 />
                 <h3>Surendra Pilaniya</h3>
-                <small>Ex @RedTechno</small>
+                <small>Ex @RADTechno</small>
                 <br />
                 <br />
                 <strong>Tech Veteran</strong>
               </div>
-            </div>
+            </div> */}
             <div className="column">
               <div className="card card-team">
                 <img
