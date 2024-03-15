@@ -11,8 +11,8 @@ import dsa_image from "../assets/images/dsa.jpeg";
 import leetcode_image from "../assets/images/leetcode_image.jpg";
 import grpc_image from "../assets/images/grpc.png";
 import soniya_image from "../assets/images/team-soniya.jpeg";
-//import nitesh_image from "../assets/images/team-nitesh.png";
-// import surendra_image from "../assets/images/surendraprofilepic.jpeg";
+import nitesh_image from "../assets/images/team-nitesh.png";
+import surendra_image from "../assets/images/surendraprofilepic.jpeg";
 import navyashree_image from "../assets/images/navyashree.jpeg";
 import amit_image from "../assets/images/amitprofile.jpeg";
 import soumya_image from "../assets/images/soumyaprofile.jpeg";
@@ -20,15 +20,15 @@ import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 
 function Home() {
   function onClickHandler(link) {
-    if (link === "1dsa")
+    if (link === "dsa")
       window.open(
         "https://www.youtube.com/watch?v=UdDj8qau4WU&list=PLWiRdVW_EBIxPoK_c5br1MKWKnhRDNJIz"
       );
-    else if (link === "1leetcode")
+    else if (link === "leetcode")
       window.open(
         "https://www.youtube.com/playlist?list=PLWiRdVW_EBIx0mo-1bbD0KC_Q2Gab51CH"
       );
-    else if (link === "1grpc") {
+    else if (link === "grpc") {
       window.open(
         "https://www.youtube.com/watch?v=rzWwgmhtAyc&list=PLWiRdVW_EBIzQxZhgxdYDbvaVl9YOD4FT"
       );
@@ -227,7 +227,7 @@ function Home() {
         </div>
         <div className="card-container">
           <div className="row">
-            {/* <div className="column">
+            <div className="column">
               <div className="card card-team">
                 <img
                   alt="Google Remote Processor Call"
@@ -242,8 +242,8 @@ function Home() {
                 <br />
                 <strong>Tech Veteran</strong>
               </div>
-            </div> */}
-            {/* <div className="column">
+            </div>
+            <div className="column">
               <div className="card card-team">
                 <img
                   alt="Google Remote Processor Call"
@@ -258,7 +258,7 @@ function Home() {
                 <br />
                 <strong>Tech Veteran</strong>
               </div>
-            </div> */}
+            </div>
             <div className="column">
               <div className="card card-team">
                 <img

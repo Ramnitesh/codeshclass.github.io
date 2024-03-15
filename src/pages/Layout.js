@@ -27,7 +27,7 @@ const Layout = () => {
             <div className="menu">
               <Link
                 onClick={() => {
-                  window.open("https://www.youtube.com/");
+                  window.open("https://www.youtube.com/@codeshclass");
                 }}
                 to="/"
               >
