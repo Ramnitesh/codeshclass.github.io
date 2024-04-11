@@ -6,6 +6,7 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Course from "./pages/Course";
 import Contact from "./pages/Contact";
+import Payment from "./pages/Payment";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="policy/privacy-policy" element={<Privacy />} />
           <Route path="course" element={<Course />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="payment" element={<Payment />} />
         </Route>
       </Routes>
     </BrowserRouter>
