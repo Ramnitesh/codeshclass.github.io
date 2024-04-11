@@ -103,6 +103,9 @@ const Layout = () => {
           </li>
           <li id="footer_li">
             <div className="footer-item">
+              <Link to="payment">Payment</Link>
+            </div>
+            <div className="footer-item">
               <Link to="policy/terms-conditions">Terms</Link>
             </div>
             <div className="footer-item">
